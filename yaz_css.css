@@ -1,0 +1,128 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#f5f5f5;
+    text-transform: capitalize;
+    text-decoration: solid;
+
+}
+#container{
+    display: flex;
+    border: 1px solid rgb(252, 24, 24);
+
+}
+#card{
+    border: 1px solid blue;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#form{
+    padding-left: 100px;
+    margin-top: 20px;
+}
+#id_card{
+    border: 1px solid black;
+    padding-left: 600px;
+}
+#card{
+    display: block;
+    padding-right:600px ;
+}
+h1{
+    text-align: center;
+    color:white;
+}
+h2{
+    padding-bottom: 15px;
+}
+h3{
+    color: white;
+    padding-left: 900px;
+    margin-top: 10px;
+}
+#head{
+    /* border: 1px solid black; */
+    width: 100vw;
+    
+    background-color: rgba(4, 182, 236, 0.884);
+}
+#nav{
+    /* border: 1px solid black; */
+    color: white;
+    margin-top: 10px;
+    padding: 3px;
+    padding-left: 1150px;
+    padding-top: 10px;
+}
+li{
+    display: inline;
+}
+#form button{
+    background-color: rgba(4, 182, 236, 0.884);
+    border: 1px solid rgba(4, 182, 236, 0.884);
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: solid;
+    
+}
+#lbl{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+
+}
+#lbl input{
+   border-radius: 5px; 
+   font-size: 20px;
+   margin-top: 5px;
+   padding: 6px;
+   border: 1px solid rgba(4, 182, 236, 0.884);
+}
+textarea{
+    border: 1px solid rgba(4, 182, 236, 0.884);
+}
+.gender{
+    padding-bottom: 15px;
+}
+#image{
+    border: 1px solid blueviolet;
+    padding-left: 300px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 20px ,
+    inset 5px 5px 10px rgb(36, 151, 218),
+    -2px -2px 10px rgb(32, 154, 224);
+}
+#head img{
+    height: 90px;
+    width: 90px;
+    margin-top: 180px;
+    margin-left: 100px;
+    padding-left: 180px;
+    padding-top: 100px;
+    
+}
+img{
+    border: 1px solid brown;
+    height: 500px;
+    width: 500px;
+    align-items: center;
+}
+#img{
+    padding-right: 200px;
+    box-shadow: 8px 8px 20px ,
+    inset 5px 5px 10px rgb(137, 101, 238),
+    -2px -2px 10px rgb(90, 32, 224);
+}
